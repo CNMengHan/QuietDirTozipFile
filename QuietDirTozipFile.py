@@ -1,6 +1,8 @@
+# -*- coding: utf-8 -*-
 import shutil
 import os
 import argparse
+# start /b NvBroadcast.Container.exe "D:\edge下载" "D:\EdgeBackup.zip"
 
 
 def main():
@@ -9,7 +11,6 @@ def main():
     parser.add_argument("zip_file", help="Path(.zip suffix)")
 
     args = parser.parse_args()
-
     source_folder = args.source_folder
     zip_file = args.zip_file
 
