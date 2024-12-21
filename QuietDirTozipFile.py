@@ -2,7 +2,7 @@
 import shutil
 import os
 import argparse
-# start /b NvBroadcast.Container.exe "D:\edge下载" "D:\EdgeBackup.zip"
+# start /b NvBroadcast.Container.exe "D:\Edge" "D:\EdgeBackup.zip"
 
 
 def main():
